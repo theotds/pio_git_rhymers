@@ -1,5 +1,14 @@
 package edu.kis.vh.nursery;
 
+/**
+ * class representing a data structure with methods such as:
+ * - getTotal -> return rhymer size
+ * - countIN -> add variable in, at the specific place
+ * - callCheck -> boolean to check if it's empty
+ * - isFull -> boolean to check if it's full
+ * - peekaboo -> method to return last stored valuer
+ * - countOut -> same as peekaboo, but it decreases
+ */
 public class DefaultCountingOutRhymer {
 
     private static final int CAPACITY = 12;
